@@ -33,7 +33,7 @@ debuild -us -uc --lintian-opts --profile debian
 ```
 Centos
 ---------
-yum install git cmake3 libxml2-devel libxslt-devel  net-snmp-libs qt5-qtbase-devel gcc-c++ -y
+yum install git cmake3 libxml2-devel libxslt-devel  net-snmp-libs qt5-qtbase-devel gcc-c++  openssl-devel -y
 git clone https://github.com/alexeyzam/fwbuilder.git
  mkdir build
  cd build
