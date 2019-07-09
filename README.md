@@ -31,3 +31,6 @@ Create deb package
 ```
 debuild -us -uc --lintian-opts --profile debian
 ```
+Centos
+---------
+yum install git cmake3 libxml2-devel libxslt-devel  net-snmp-libs qt5-qtbase-devel -y
